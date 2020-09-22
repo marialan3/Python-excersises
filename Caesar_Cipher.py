@@ -8,7 +8,7 @@ def code(arg, jump):
         code_word = code_word + code_letter    # add letter to the variable
     return code_word   
 
-code("ATTACK", 3)  # jum = 3
+code("ATTACK", 3)  # jump = 3
 
 
 def decode(arg, jump):
@@ -21,4 +21,4 @@ def decode(arg, jump):
         decode_word = decode_word + decode_letter    
     return decode_word   
 
-decode("IPMB", 3)
+decode("DWWDFN", 3)
